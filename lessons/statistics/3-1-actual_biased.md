@@ -1,3 +1,27 @@
 [Think Stats Chapter 3 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased)
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+The exersice reads as below:
+
+>**Exercise 3.1** Something like the class size paradox appears if you survey children and ask how many children are in their family. Families with many children are more likely to appear in your sample, and families with no children have no chance to be in the sample.
+>
+>Use the NSFG respondent variable NUMKDHH to construct the actual distribution for the number of children under 18 in the household.
+>
+>Now compute the biased distribution we would see if we surveyed the children and asked them how many children under 18 (including themselves) are in their household.
+>
+>Plot the actual and biased distributions, and compute their means. As a starting place, you can use chap03ex.ipynb.
+
+---
+
+#### **Q1:** Use the NSFG respondent variable NUMKDHH to construct the actual distribution for the number of children under 18 in the household.
+
+First, I plotted a histogram of raw number of children.
+
+```{python}
+hist = thinkstats2.Hist(resp.numkdhh, label='numkdhh')
+thinkplot.Hist(hist)
+thinkplot.Config(xlabel='Number of children under 18 in household', ylabel='Count')
+```
+
+Output:
+
+![Hist - raw number of children](raw_num_children.png)
