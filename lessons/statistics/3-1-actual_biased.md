@@ -26,7 +26,7 @@ Output:
 
 ![Hist - raw number of children](raw_num_children.png)
 
-Then I represented the values as percentages of the full data set using the pmf.
+Then I represented the values as probabilities using the pmf.
 
 ```{python}
 pmf = thinkstats2.Pmf(resp.numkdhh, label='actual')
