@@ -6,7 +6,7 @@ The exersice reads as below:
 
 ---
 
-#### **Q1:** Using the variable totalwgt_lb, investigate whether first babies are lighter or heavier than others.
+**Q1:** Using the variable totalwgt_lb, investigate whether first babies are lighter or heavier than others.
 
 Here, I am comparing the averages of the baby's weights in the data for first born against others.
 
@@ -31,7 +31,7 @@ The average of the 2 data sets appears to be very similar. Therefore, the first 
 
 ---
 
-Q2: Compute Cohen’s d to quantify the difference between the groups.
+**Q2:** Compute Cohen’s d to quantify the difference between the groups.
 
 Cohen's d computation:
 
