@@ -12,7 +12,7 @@ The exersice reads as below:
 
 ---
 
-#### **Q1:** Use the NSFG respondent variable NUMKDHH to construct the actual distribution for the number of children under 18 in the household.
+#### Q1: Use the NSFG respondent variable NUMKDHH to construct the actual distribution for the number of children under 18 in the household.
 
 First, I plotted a histogram of raw number of children.
 
